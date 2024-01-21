@@ -81,7 +81,7 @@ def popola_tabelle_con_dipendenze(Session):
 
     # Prestiti
     prestiti = [
-        Prestito(data_inizio='2024-01-01', data_fine='2024-01-31', data_consegna='2024-01-30', id_risorsa=1, id_utente=1),
+        Prestito(data_inizio='2024-01-01', data_fine='2024-01-31', data_consegna='2024-01-26', id_risorsa=1, id_utente=1),
         Prestito(data_inizio='2024-01-02', data_fine='2024-01-28', data_consegna='2024-01-27', id_risorsa=2, id_utente=2),
         Prestito(data_inizio='2024-01-01', data_fine='2024-01-31', data_consegna=None, id_risorsa=3, id_utente=3),
         Prestito(data_inizio='2024-01-01', data_fine='2024-01-30', data_consegna=None, id_risorsa=4, id_utente=4)
